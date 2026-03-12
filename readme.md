@@ -90,10 +90,10 @@ and a self-contained interactive HTML report — in a single command.**
 pip install pandas numpy matplotlib seaborn scipy scikit-learn openpyxl missingno
 
 # 2. Run the profiler
-python data_profiler_v2.py your_dataset.csv
+python data_profiler_v2.py
 ```
 
-The profiler will ask two questions, then handle everything automatically:
+The script will prompt you for two things, then run everything automatically:
 
 ```
 ╔══════════════════════════════════════════════════════════╗
@@ -174,41 +174,38 @@ pip install pandas numpy matplotlib seaborn scipy openpyxl
 
 ## 🖥 Usage
 
-### Interactive Mode
+### Running the Script
 
 ```bash
 python data_profiler_v2.py
 ```
 
-Prompts you for the file path and target column interactively.
+That's it. The script will interactively ask you two questions and then run everything automatically:
 
-### Pass File Path Directly
-
-```bash
-python data_profiler_v2.py dataset.csv
+**Step 1 — Enter your dataset path:**
+```
+Enter dataset path (CSV / Excel / JSON / Parquet / TSV): path/to/your/data.csv
 ```
 
-Still prompts for the target column.
-
-### Fully Non-Interactive (for pipelines & automation)
-
-```bash
-python data_profiler_v2.py dataset.csv target_column_name
+**Step 2 — Enter your target column (or skip):**
+```
+Available columns: ['col1', 'col2', 'col3', ...]
+Enter target column name (or press Enter to skip): col3
 ```
 
-No prompts — runs start to finish and saves the report.
+Pressing **Enter** without typing a column name skips target-specific analysis (ML readiness score, class imbalance, feature–target plots) and profiles the dataset as-is.
 
 ### Supported File Formats
 
-```bash
-python data_profiler_v2.py data.csv          # CSV (auto-detects encoding)
-python data_profiler_v2.py data.tsv          # TSV
-python data_profiler_v2.py data.xlsx         # Excel
-python data_profiler_v2.py data.json         # JSON
-python data_profiler_v2.py data.parquet      # Parquet
-python data_profiler_v2.py data.feather      # Feather
-python data_profiler_v2.py data.pkl          # Pickle
-```
+| Format | Extension |
+|--------|-----------|
+| CSV (auto-detects encoding) |  |
+| TSV |  |
+| Excel | ,  |
+| JSON |  |
+| Parquet |  |
+| Feather |  |
+| Pickle |  |
 
 ---
 
