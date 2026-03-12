@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="https://github.com/trx98/Predicting-Customer-Annual-Spending-Using-Behavioral-Metrics/blob/main/logo_new.png?raw=true" alt="KoshurAI Logo" width="180"/>
+
+<br/>
+
 # 📊 Ultimate Data Profiler
 
 ### *The only data profiling script a data scientist will ever need*
@@ -8,7 +12,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![Code Style](https://img.shields.io/badge/Code%20Style-PEP8-orange?style=flat-square)](https://pep8.org/)
 [![Maintained](https://img.shields.io/badge/Maintained-Yes-brightgreen?style=flat-square)]()
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-blueviolet?style=flat-square)](CONTRIBUTING.md)
+[![Developed by KoshurAI](https://img.shields.io/badge/Developed%20by-KoshurAI-8a2be2?style=flat-square)]()
 
 <br/>
 
@@ -17,7 +21,7 @@ and a self-contained interactive HTML report — in a single command.**
 
 <br/>
 
-[Features](#-features) · [Quick Start](#-quick-start) · [Report Preview](#-report-preview) · [Installation](#-installation) · [Usage](#-usage) · [Configuration](#-configuration) · [Output](#-output-structure) · [Contributing](#-contributing)
+[Features](#-features) · [Quick Start](#-quick-start) · [Report Preview](#-report-preview) · [Installation](#-installation) · [Usage](#-usage) · [Configuration](#-configuration) · [Output](#-output-structure)
 
 ---
 
@@ -423,30 +427,6 @@ The profiler is designed to handle large datasets without running out of memory:
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome. To get started:
-
-```bash
-git clone https://github.com/yourusername/ultimate-data-profiler.git
-cd ultimate-data-profiler
-pip install -r requirements.txt
-```
-
-### Ideas for Future Additions
-
-- [ ] Time-series stationarity tests (ADF, KPSS, HURST)
-- [ ] Automatic feature engineering suggestions
-- [ ] PDF export alongside HTML
-- [ ] Database connection support (SQLite, PostgreSQL, BigQuery)
-- [ ] Column-level data lineage notes
-- [ ] Comparison mode: profile two datasets side-by-side (e.g. train vs. test)
-- [ ] Integration with MLflow / W&B for experiment tracking
-
-Please open an issue before submitting large PRs so we can discuss the approach first.
-
----
-
 ## 📜 License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
@@ -463,6 +443,12 @@ Built on top of the Python data science ecosystem:
 
 <div align="center">
 
-**If this tool saved you time, consider giving it a ⭐ on GitHub.**
+<img src="https://github.com/trx98/Predicting-Customer-Annual-Spending-Using-Behavioral-Metrics/blob/main/logo_new.png?raw=true" alt="KoshurAI" width="120"/>
+
+<br/>
+
+**Developed by [KoshurAI](https://github.com/trx98)**
+
+*If this tool saved you time, consider giving it a ⭐ on GitHub.*
 
 </div>
